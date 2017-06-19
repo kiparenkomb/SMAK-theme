@@ -23,12 +23,12 @@
     "jquery": "~2.2.0",
     "normalize-css": "~3.0.3",
     "include-media": "~1.4.2",
-    "Modernizr": "git://github.com/Modernizr/Modernizr#^3.5.0",
     "bootstrap-sass": "git://github.com/twbs/bootstrap-sass#^3.3.7",
     "font-awesome": "git://github.com/FortAwesome/Font-Awesome#^4.7.0",
     "animate.css": "^3.5.2",
     "jQuery-viewport-checker": "^1.8.7",
     "Counter-Up": "git://github.com/bfintal/Counter-Up#^1.0.0",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "modernizr": "2.8.3"
   }
 }

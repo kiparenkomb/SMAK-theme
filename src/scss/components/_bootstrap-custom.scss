@@ -1,0 +1,37 @@
+@import 'bower/bootstrap-sass/assets/stylesheets/bootstrap/variables';
+
+//== Container sizes
+$container-lg:      (1170px + $grid-gutter-width);
+
+//== Typography
+$yellow: #ffe600;
+$gray: #131a1d;
+$dark-gray: #131316;
+$light-black: #707070;
+$black: #000000;
+$white: #ffffff;
+//## Font, line-height, and color for body text, headings, and more. To change the file bootstrap/_variables.scss
+$font-family-sans-serif:  'Oswald', sans-serif, Helvetica, Arial;
+$font-size-base:          16px;
+
+$font-size-h1:            65px;
+$font-size-h2:            30px;
+$font-size-h3:            20px;
+$font-size-h4:            16px;
+$headings-font-weight:    700;
+
+$link-color:              $yellow;
+$link-hover-decoration:   none;
+
+//== Buttons
+$btn-font-weight:         bold;
+$btn-info-color:          $white;
+
+//** Global text color on `<body>`.
+$text-color:              $light-black;
+
+//** Number of columns in the grid.
+// $grid-columns: 16;
+
+//** Placeholder text color
+$input-color-placeholder: #000;

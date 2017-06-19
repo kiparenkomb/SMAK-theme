@@ -1,2 +1,12 @@
 @import './bower/normalize-css/normalize';
 @import './bower/include-media/dist/include-media';
+
+@import '../scss/base/fonts';
+@import '../scss/components/bootstrap-custom';
+@import './bower/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+@import './bower/font-awesome/scss/font-awesome';
+@import './bower/slick-carousel/slick/slick';
+@import './bower/animate.css/animate';
+
+// @import './bower/jquery-ui/themes/base/jquery-ui';
