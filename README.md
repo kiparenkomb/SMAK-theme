@@ -27,3 +27,29 @@
 ### Production
 * `gulp production` task creates the `production/` folder in the root of the project with **build files only**;
 * It will **help you** to **create clear** instances of code for the **production** or **further implementation**.
+
+### What's included
+```
+SMAK-theme/
+    |-- build
+        |-- fonts
+            |-- oswald
+            |-- FontAwesome
+        |-- images
+            |-- bg
+            |-- clients
+            |-- icon
+            |-- logo
+            |-- portfolio
+            |-- slider
+            |-- user-team
+        |-- app.css
+        |-- vendor.css
+        |-- app.js
+        |-- vendor.js
+        |-- modernizr.js
+    index.html
+    portfolio.json
+```
+**index.html**
+This is the main html file, which is inside SMAK-theme/index.html

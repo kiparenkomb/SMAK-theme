@@ -18,16 +18,16 @@
 	<div id="wrapper">
 		<!-- Fixed navbar -->
 		<!-- Navigations -->
-		<div class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
+		<header class="navbar navbar-smak navbar-fixed-top " id="navbar" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></button>
-					<a class="navbar-brand animate" href="#"><img src="build/images/logo/logo.png" alt="logo"></a>
+					<a class="navbar-brand" href="#"><img src="build/images/logo/logo.png" alt="logo"></a>
 				</div>
 				<!--.nav-collapse -->
 				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right animate">
-						<li><a href="#home">Home</a></li>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" class="active">Home</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#work">Work</a></li>
 						<li><a href="#about">About</a></li>
@@ -36,38 +36,38 @@
 					</ul>
 				</div> <!--/.nav-collapse -->
 			</div>
-		</div>
+		</header>
 		<!-- /Navigations -->
 
 		<!-- Section - home -->
-		<section id="home" class="home home-fullscreen">
-			<div class="slide text-slider-wrapper">
+		<section id="home" class="home">
+			<div class="slide">
 				<div class="container">
-					<div class="text-slider clearfix">
-						<div class="clearfix">
+					<div class="text-slider">
+						<div class="slide-content">
 							<span class="lead">Branding have another definition</span>
-							<a href="#" class="btn btn-primary outline-outward">Learn More</a>
+							<a href="#" class="btn btn-primary">Learn More</a>
 						</div>
-						<div class="clearfix">
+						<div class="slide-content">
 							<span class="lead">Branding have another definition</span>
-							<a href="#" class="btn btn-primary outline-outward">Learn More</a>
+							<a href="#" class="btn btn-primary">Learn More</a>
 						</div>
-						<div class="clearfix">
+						<div class="slide-content">
 							<span class="lead">Branding have another definition</span>
-							<a href="#" class="btn btn-primary outline-outward">Learn More</a>
+							<a href="#" class="btn btn-primary">Learn More</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="mouse">
-				<div class="dot"></div>
-			</div>
+			<a href="#services" class="mouse js-scroll">
+				<span class="dot"></span>
+			</a>
 		</section>
 		<!-- /Section - home -->
 
 		<!-- Section - services -->
 		<section id="services" class="gray">
-			<div class="container pad-bot-50">
+			<div class="container">
 				<div class="heading">
 					<div>Our services</div>
 					<h1>What we love to do</h1>
@@ -109,46 +109,46 @@
 				<div class="masked">
 					<div class="container">
 						<div class="heading">
-							<h3 class="primary-color">How we do it</h3>
+							<h2 class="primary-color">How we do it</h2>
 							<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
 						</div>
-						<div class="row">
-							<div class="col-sm-2">
+						<div class="row js-row">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay1"><!-- fadeInLeft -->
 									<i class="fa fa-flask fa-3x"></i>
 									<h3>Analise</h3>
 									<p>Vivamus suscipit tortor eget felis porttitor volutpat. Cura bitur aliquet quam.</p>
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay2"><!-- fadeInLeft -->
 									<i class="fa fa-inbox fa-3x"></i>
 									<h3>Preapering</h3>
 									<p>Vivamus suscipit tortor eget felis porttitor volutpat. Cura bitur aliquet quam id dui posu ere blandit.</p>
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay3"><!-- fadeInLeft -->
 									<i class="fa fa-gavel fa-3x"></i>
 									<h3>Working</h3>
 									<p>Vivamus suscipit tortor eget felis porttitor volutpat.</p>
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay4"><!-- fadeInLeft -->
 									<i class="fa fa-cog fa-3x"></i>
 									<h3>Finalise</h3>
 									<p>Vivamus suscipit tortor eget felis porttitor volutpat. Cura bitur aliquet quam id.</p>
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay5"><!-- fadeInLeft -->
 									<i class="fa fa-spinner fa-3x"></i>
 									<h3>Testing</h3>
 									<p>Vivamus suscipit tortor eget felis porttitor volutpat. Cura bitur aliquet quam id dui posu ere blandit.</p>
 								</div>
 							</div>
-							<div class="col-sm-2">
+							<div class="col-md-2 col-sm-4">
 								<div class="process-item animated delay6"><!-- fadeInLeft -->
 									<i class="fa fa-truck fa-3x"></i>
 									<h3>Deliver</h3>
@@ -166,8 +166,8 @@
 
 
 
-		<!-- Section - portfolio -->
-		<section class="portfolio" id="portfolio">
+		<!-- Section - work -->
+		<section class="work" id="work">
 			<div class="container">
 				<div class="heading">
 					<div>Our works</div>
@@ -177,19 +177,19 @@
 				</div>
 				<div class="centered-pills">
 					<ul class="nav nav-pills">
-						<li class="filter" data-filter="all">
+						<li class="filter-item active" data-filter="all">
 							<a href="javascript:void(0)">All</a>
 						</li>
-						<li class="filter" data-filter="web-design">
+						<li class="filter-item" data-filter="web-design">
 							<a href="javascript:void(0)">Web design</a>
 						</li>
-						<li class="filter" data-filter="g-design">
+						<li class="filter-item" data-filter="g-design">
 							<a href="javascript:void(0)">Graphic design</a>
 						</li>
-						<li class="filter" data-filter="photography">
+						<li class="filter-item" data-filter="photography">
 							<a href="javascript:void(0)">Photography</a>
 						</li>
-						<li class="filter" data-filter="illustraion">
+						<li class="filter-item" data-filter="illustraion">
 							<a href="javascript:void(0)">Illustration</a>
 						</li>
 					</ul>
@@ -203,124 +203,112 @@
 				</div>
 			</div>
 			<div>
-				<ul class="full-portfolio clearfix" id="Grid">
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item web-design">
-						<a href="ajax/project-1.html">
+				<ul class="full-portfolio">
+					<li class="portfolio-item active animated center-block con_g-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/1.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Moderno</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Graphic design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item g-design">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_web-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/2.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>App Screen Showcase</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Web design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item photography">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_photography">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/3.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Molly</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Photography</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item illustraion">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_illustraion">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/4.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Workspace Elements</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Illustration</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item web-design">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_web-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/5.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Vintage Logo Insignias</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / ESP</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Web design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item g-design">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_g-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/6.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Retro Vetor Badges</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Graphic design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item photography">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_photography">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/7.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Mentum</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Photography</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item illustraion">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_illustraion">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/8.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Flat Browser Mockup</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Illustration</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item web-design">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_web-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/9.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Flying Business Cards</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Web design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item g-design">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_g-design">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/10.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Tri Fold Brochure</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Graphic design</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item photography">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_photography">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/11.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>iPhone 6 Mockups</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">AI / PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Photography</p>
 							</div>
 						</a>
 					</li>
-					<li class="mix col-xs-6 col-sm-4 col-md-3 col-lg-2 portfolio-item illustraion">
-						<a href="ajax/project-1.html">
+					<li class="portfolio-item active animated center-block con_illustraion">
+						<a href="javascript:void(0);">
 							<img src="build/images/portfolio/12.jpg" class="img-responsive" alt="">
 							<div class="mask">
-								<h4>Large Poster Mockup</h4>
-								<div class="divider"><span></span></div>
-								<p class="font-m">PSD</p>
+								<h4>Sample image</h4>
+								<p class="font-m">Illustration</p>
 							</div>
 						</a>
 					</li>
@@ -331,8 +319,8 @@
 					<h1>Do you like our portfolio?</h1>
 					<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
 				</div>
-				<div style="text-align:center; margin-bottom: 50px">
-					<a href="#contact" class="btn btn-primary">Contact Us</a>
+				<div class="btn-box">
+					<a href="#contact" class="btn btn-primary js-scroll">Contact Us</a>
 				</div>
 			</div>
 			<div class="branded-section numbers">
@@ -345,25 +333,25 @@
 						<div class="row">
 							<div class="col-md-3">
 								<div class="number-item">
-									<span class="number" id="clientsCounter" data-count="1600" data-duration="2">1600</span>
+									<span class="number" id="clientsCounter" data-count="1600" data-duration="3">1600</span>
 									<span class="text">Happy clients</span>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="number-item">
-									<span class="number" id="projectCounter" data-count="3200" data-duration="2">3200</span>
+									<span class="number" id="projectCounter" data-count="3200" data-duration="3">3200</span>
 									<span class="text">Completed projects</span>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="number-item">
-									<span class="number" id="awardCounter" data-count="40" data-ration="1.5">40</span>
+									<span class="number" id="awardCounter" data-count="40" data-ration="2">40</span>
 									<span class="text">Awards</span>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="number-item">
-									<span class="number" id="coffeeCounter" data-count="20000" data-duration="3">20 000</span>
+									<span class="number" id="coffeeCounter" data-count="20000" data-duration="4">20 000</span>
 									<span class="text">Coffee drinks</span>
 								</div>
 							</div>
@@ -373,6 +361,389 @@
 			</div>
 		</section>
 		<!-- /Section - portfolio -->
+
+
+
+		<!-- Section - about -->
+		<section id="about">
+			<div class="container">
+				<div class="heading">
+					<div>About Us</div>
+					<h1>Who we are</h1>
+					<div class="divider">
+						<span></span>
+					</div>
+					<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="about-item animated"><!-- fadeInUp -->
+							<div class="circle pull-left">
+								<i class="fa fa-clock-o"></i>
+							</div>
+							<h4>On time projects</h4>
+							<p class="font-m">Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-item animated delay2"><!-- fadeInUp -->
+							<div class="circle pull-left">
+								<i class="fa fa-life-ring"></i>
+							</div>
+							<h4>Fully support</h4>
+							<p class="font-m">Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-item animated delay4"><!-- fadeInUp -->
+							<div class="circle pull-left">
+								<i class="fa fa-thumbs-up"></i>
+							</div>
+							<h4>Professional experience</h4>
+							<p class="font-m">Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about-item animated delay6"><!-- fadeInUp -->
+							<div class="circle pull-left">
+								<i class="fa fa-comments"></i>
+							</div>
+							<h4>Communicative team</h4>
+							<p class="font-m">Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gray">
+				<div class="container">
+					<div class="heading">
+						<h2>The team</h2>
+						<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+					</div>
+					<div class="row">
+						<ul class="team " id="og-grid">
+							<li class="col-sm-3 col-xs-6">
+								<a href="" class="team-member" data-tabs="tab1">
+									<img src="build/images/user-team/user-team1.jpg" alt="" class="img-responsive">
+									<span class="name">John Doe</span>
+									<span class="title">Creative director</span>
+								</a>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<a href="sdd" class="team-member" data-tabs="tab2">
+									<img src="build/images/user-team/user-team2.jpg" alt="" class="img-responsive">
+									<span class="name">John Doe</span>
+									<span class="title">Art director</span>
+								</a>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<a href="#" class="team-member" data-tabs="tab3">
+									<img src="build/images/user-team/user-team3.jpg" alt="" class="img-responsive">
+									<span class="name">John Doe</span>
+									<span class="title">Web developer</span>
+								</a>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<a href="#" class="team-member" data-tabs="tab4">
+									<img src="build/images/user-team/user-team4.jpg" alt="" class="img-responsive">
+									<span class="name">John Doe</span>
+									<span class="title">Photographer</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Tabs team-description -->
+				<div class="team-extended">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-offset-2 col-md-8">
+								<span class="og-close">
+									<i class="fa fa-times" aria-hidden="true"></i>
+								</span>
+								<!-- №1 CONTAINER DESCRIPTION -->
+								<div class="og-details og_tab1 active">
+									<h3>John Doe 1</h3>
+									<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+									<a href="https://www.facebook.com/" class="social" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://twitter.com/" class="social" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<!-- №2 CONTAINER DESCRIPTION -->
+								<div class="og-details og_tab2">
+									<h3>John Doe 2</h3>
+									<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+									<a href="https://www.facebook.com/" class="social" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://twitter.com/" class="social" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<!-- №3 CONTAINER DESCRIPTION -->
+								<div class="og-details og_tab3">
+									<h3>John Doe 3</h3>
+									<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+									<a href="https://www.facebook.com/" class="social" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://twitter.com/" class="social" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+								<!-- №4 CONTAINER DESCRIPTION -->
+								<div class="og-details og_tab4">
+									<h3>John Doe 4</h3>
+									<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+									<a href="https://www.facebook.com/" class="social" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://twitter.com/" class="social" target="_blank">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Tabs team-description -->
+			</div>
+			<div class="branded-section skills">
+				<div class="masked">
+					<div class="container">
+						<div class="heading">
+							<h2>Skills</h2>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						</div>
+						<div class="row">
+							<svg class="hidden">
+								<circle id="percent-circle-svg" cx="50%" cy="50%" r="50%" stroke-alignment="inner"></circle>
+							</svg>
+							<div class="col-sm-3">
+								<div class="chart">
+									<div class="percent-circle pc3" data-percent="90">
+										<svg>
+											<use class="percent-circle-inner" xlink:href="#percent-circle-svg"></use>
+										</svg>
+									</div>
+									<h3>HTML &amp; CSS</h3>
+								</div>
+							</div>
+							<div class="col-sm-3 ">
+								<div class="chart">
+									<div class="percent-circle pc3" data-percent="96">
+										<svg>
+											<use class="percent-circle-inner" xlink:href="#percent-circle-svg"></use>
+										</svg>
+									</div>
+									<h3>AI &amp; PS</h3>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="chart">
+									<div class="percent-circle pc3" data-percent="85">
+										<svg>
+											<use class="percent-circle-inner" xlink:href="#percent-circle-svg"></use>
+										</svg>
+									</div>
+									<h3>JS &amp; PHP</h3>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="chart">
+									<div class="percent-circle pc3" data-percent="94">
+										<svg>
+											<use class="percent-circle-inner" xlink:href="#percent-circle-svg"></use>
+										</svg>
+									</div>
+									<h3>Photography</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Section - about -->
+
+
+
+
+		<!-- /Section - clients -->
+		<section id="clients">
+			<div class="container">
+				<div class="heading">
+					<div>Our clients</div>
+					<h1>Who love to work with us</h1>
+					<div class="divider">
+						<span></span>
+					</div>
+					<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+				</div>
+				<div class="row">
+					<div class="client-slider" id="clint-slider">
+						<div><img src="build/images/clients/logo-1.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-2.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-3.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-4.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-5.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-1.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-2.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-3.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-4.png" alt="" class="grayscale"></div>
+						<div><img src="build/images/clients/logo-5.png" alt="" class="grayscale"></div>
+					</div>
+				</div>
+			</div>
+			<div class="branded-section quote">
+				<div class="masked">
+					<div class="container">
+						<div id="testimonials" class="testimonials-slider bxslider">
+							<blockquote>
+								<p>“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an  individual, institution,corporation, product or service”</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Daniel J. Boorstin 1
+							</blockquote>
+							<blockquote>
+								<p>“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an  individual, institution,corporation, product or service”</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Daniel J. Boorstin 2
+							</blockquote>
+							<blockquote>
+								<p>“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an  individual, institution,corporation, product or service”</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Daniel J. Boorstin 3
+							</blockquote>
+							<blockquote>
+								<p>“An image is not simply a trademark, a design, a slogan or an easily remembered picture. It is a studiously crafted personality profile of an  individual, institution,corporation, product or service”</p>
+								<div class="divider">
+									<span></span>
+								</div>
+								Daniel J. Boorstin 4
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Section - clients -->
+
+
+
+
+
+		<!-- Section - contact -->
+		<section id="contact" class="gray">
+			<div class="container">
+				<div class="heading">
+					<div>Contact Us</div>
+					<h1>Where you can find us</h1>
+					<div class="divider">
+						<span></span>
+					</div>
+					<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pelle ntesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="adress-element ">
+							<i class="fa fa-home fa-2x"></i>
+							<h3>Our adress</h3>
+							<span class="font-l">214 Awesome Street,NY</span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="adress-element delay2">
+							<i class="fa fa-comment fa-2x"></i>
+							<h3>Our mail</h3>
+							<span class="font-l">awesomemail@ourmail.com</span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="adress-element delay4">
+							<i class="fa fa-phone fa-2x"></i>
+							<h3>Our phone</h3>
+							<span class="font-l">(0)123-456-789-00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="branded-section contact-form">
+				<div class="masked">
+					<div class="container">
+						<div class="heading">
+							<h1 class="light-font">Send us a message</h1>
+							<p class="light-font">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+						</div>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-4" style="position:relative">
+
+									<input type="text" name="Name" class="form-control" placeholder="Your Name" required>
+								</div>
+								<div class="col-sm-4">
+									<input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+								</div>
+								<div class="col-sm-4">
+									<input type="text" name="Subject" class="form-control" placeholder="Subject" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<textarea class="form-control" placeholder="Enter Massage Here..." rows="7" required></textarea>
+								</div>
+							</div>
+							<div class="form-group commands">
+								<button class="btn btn-primary">Send message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Section - contact -->
+
+
+
+
+
+
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<p>&copy; Copyright 2013 <a href="javascript:void(0);">Smak</a>. All rights reserved.</p>
+				<ul class="social-list">
+					<li class="facebook">
+						<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li class="dribbble">
+						<a href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
+					</li>
+					<li class="twitter">
+						<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li class="youtube">
+						<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+					</li>
+				</ul>
+				<div class="to-top">
+					<i class="fa fa-angle-double-up"></i>
+				</div>
+			</div>
+		</footer>
+		<!-- /Footer -->
+
+
+
 
 
 
@@ -386,6 +757,27 @@
 	</div> <!-- /#wrapper -->
 	<script src="build/vendor.js"></script>
 	<script src="build/app.js"></script>
-	<script src="http://localhost:35729/livereload.js?snipver=1"></script>
+
+
+	<script id="blocks" type="text/x-handlebars-template">
+		{{#each blocks}}
+		<div class="project">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="{{linkImage}}" alt="" class="img-responsive">
+				</div>
+				<div class="col-md-6">
+					<div class="centering">
+						<h2>{{title}}</h2>
+						<p>{{description}}</p>
+						<a href="{{link}}" class="btn btn-primary">View Live</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</script>
+
+
 </body>
 </html>

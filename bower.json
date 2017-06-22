@@ -27,8 +27,9 @@
     "font-awesome": "git://github.com/FortAwesome/Font-Awesome#^4.7.0",
     "animate.css": "^3.5.2",
     "jQuery-viewport-checker": "^1.8.7",
-    "Counter-Up": "git://github.com/bfintal/Counter-Up#^1.0.0",
     "slick-carousel": "^1.6.0",
-    "modernizr": "2.8.3"
+    "modernizr": "2.8.3",
+    "countUp.js": "git://github.com/inorganik/CountUp.js#^1.8.5",
+    "handlebars": "^4.0.10"
   }
 }
